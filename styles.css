@@ -1,4 +1,4 @@
-/* Import DS-Digital from CDN */
+
 @import url('https://fonts.cdnfonts.com/css/ds-digital');
 
 body {
@@ -20,7 +20,7 @@ body {
   flex-direction: column;
 }
 
-/* Updated for input box */
+
 .display {
   background: #e6f0fa;
   color: #1a1a40;
@@ -36,7 +36,7 @@ body {
   box-sizing: border-box;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  font-family: 'DS-Digital', monospace; /* ✅ Apply DS-Digital to display */
+  font-family: 'DS-Digital', monospace; 
 }
 
 .buttons {
@@ -53,7 +53,7 @@ body {
   color: #333;
   cursor: pointer;
   transition: all 0.25s ease;
-  font-family: 'DS-Digital', monospace; /* ✅ Apply DS-Digital to all buttons */
+  font-family: 'DS-Digital', monospace; 
 }
 
 .btn:hover {
